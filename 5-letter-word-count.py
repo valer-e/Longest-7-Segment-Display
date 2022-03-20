@@ -1,0 +1,1 @@
+with open("words.txt", "r") as w: print(sum([(1 if len(word) == 5 else 0) for word in w.readlines()]))
